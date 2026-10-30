@@ -1,0 +1,7162 @@
+[
+  {
+    "_id": "MON-011",
+    "Id": "MON-011",
+    "Name": "Bạc xỉu",
+    "Category": "Cà phê",
+    "BasePrice": 32000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-012",
+    "Id": "MON-012",
+    "Name": "Americano",
+    "Category": "Cà phê",
+    "BasePrice": 30000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-013",
+    "Id": "MON-013",
+    "Name": "Cacao sữa đá",
+    "Category": "Đồ uống",
+    "BasePrice": 35000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-014",
+    "Id": "MON-014",
+    "Name": "Matcha latte",
+    "Category": "Trà",
+    "BasePrice": 40000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-015",
+    "Id": "MON-015",
+    "Name": "Trà vải",
+    "Category": "Trà",
+    "BasePrice": 35000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-016",
+    "Id": "MON-016",
+    "Name": "Cà phê muối",
+    "Category": "Cà phê",
+    "BasePrice": 35000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-017",
+    "Id": "MON-017",
+    "Name": "Cà phê dừa",
+    "Category": "Cà phê",
+    "BasePrice": 40000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-018",
+    "Id": "MON-018",
+    "Name": "Cà phê caramel",
+    "Category": "Cà phê",
+    "BasePrice": 38000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-019",
+    "Id": "MON-019",
+    "Name": "Cappuccino",
+    "Category": "Cà phê",
+    "BasePrice": 42000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-020",
+    "Id": "MON-020",
+    "Name": "Latte",
+    "Category": "Cà phê",
+    "BasePrice": 42000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-021",
+    "Id": "MON-021",
+    "Name": "Mocha",
+    "Category": "Cà phê",
+    "BasePrice": 45000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-022",
+    "Id": "MON-022",
+    "Name": "Espresso",
+    "Category": "Cà phê",
+    "BasePrice": 28000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-023",
+    "Id": "MON-023",
+    "Name": "Cold brew truyền thống",
+    "Category": "Cà phê",
+    "BasePrice": 38000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-024",
+    "Id": "MON-024",
+    "Name": "Cold brew cam",
+    "Category": "Cà phê",
+    "BasePrice": 42000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-025",
+    "Id": "MON-025",
+    "Name": "Cà phê sữa hạt",
+    "Category": "Cà phê",
+    "BasePrice": 40000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-026",
+    "Id": "MON-026",
+    "Name": "Trà đào cam sả",
+    "Category": "Trà",
+    "BasePrice": 38000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-027",
+    "Id": "MON-027",
+    "Name": "Trà chanh mật ong",
+    "Category": "Trà",
+    "BasePrice": 32000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-028",
+    "Id": "MON-028",
+    "Name": "Trà sen vàng",
+    "Category": "Trà",
+    "BasePrice": 40000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-029",
+    "Id": "MON-029",
+    "Name": "Trà ô long sữa",
+    "Category": "Trà",
+    "BasePrice": 39000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-030",
+    "Id": "MON-030",
+    "Name": "Trà nhài macchiato",
+    "Category": "Trà",
+    "BasePrice": 42000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-031",
+    "Id": "MON-031",
+    "Name": "Trà dâu",
+    "Category": "Trà",
+    "BasePrice": 35000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-032",
+    "Id": "MON-032",
+    "Name": "Trà chanh dây",
+    "Category": "Trà",
+    "BasePrice": 35000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-033",
+    "Id": "MON-033",
+    "Name": "Trà tắc xí muội",
+    "Category": "Trà",
+    "BasePrice": 32000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-034",
+    "Id": "MON-034",
+    "Name": "Trà kiwi",
+    "Category": "Trà",
+    "BasePrice": 38000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-035",
+    "Id": "MON-035",
+    "Name": "Trà xoài nhiệt đới",
+    "Category": "Trà",
+    "BasePrice": 39000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-036",
+    "Id": "MON-036",
+    "Name": "Matcha đá xay",
+    "Category": "Đá xay",
+    "BasePrice": 45000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-037",
+    "Id": "MON-037",
+    "Name": "Chocolate đá xay",
+    "Category": "Đá xay",
+    "BasePrice": 45000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-038",
+    "Id": "MON-038",
+    "Name": "Cookies đá xay",
+    "Category": "Đá xay",
+    "BasePrice": 48000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-039",
+    "Id": "MON-039",
+    "Name": "Dâu sữa đá xay",
+    "Category": "Đá xay",
+    "BasePrice": 45000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-040",
+    "Id": "MON-040",
+    "Name": "Việt quất đá xay",
+    "Category": "Đá xay",
+    "BasePrice": 48000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-041",
+    "Id": "MON-041",
+    "Name": "Sinh tố bơ",
+    "Category": "Sinh tố",
+    "BasePrice": 45000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-042",
+    "Id": "MON-042",
+    "Name": "Sinh tố xoài",
+    "Category": "Sinh tố",
+    "BasePrice": 42000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-043",
+    "Id": "MON-043",
+    "Name": "Sinh tố dâu",
+    "Category": "Sinh tố",
+    "BasePrice": 42000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-044",
+    "Id": "MON-044",
+    "Name": "Sinh tố chuối",
+    "Category": "Sinh tố",
+    "BasePrice": 38000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-045",
+    "Id": "MON-045",
+    "Name": "Sinh tố mãng cầu",
+    "Category": "Sinh tố",
+    "BasePrice": 42000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-046",
+    "Id": "MON-046",
+    "Name": "Nước ép cam",
+    "Category": "Nước ép",
+    "BasePrice": 38000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-047",
+    "Id": "MON-047",
+    "Name": "Nước ép dưa hấu",
+    "Category": "Nước ép",
+    "BasePrice": 35000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-048",
+    "Id": "MON-048",
+    "Name": "Nước ép thơm",
+    "Category": "Nước ép",
+    "BasePrice": 35000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-049",
+    "Id": "MON-049",
+    "Name": "Nước ép táo",
+    "Category": "Nước ép",
+    "BasePrice": 40000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-050",
+    "Id": "MON-050",
+    "Name": "Nước ép cà rốt",
+    "Category": "Nước ép",
+    "BasePrice": 35000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-051",
+    "Id": "MON-051",
+    "Name": "Soda chanh",
+    "Category": "Soda",
+    "BasePrice": 32000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-052",
+    "Id": "MON-052",
+    "Name": "Soda việt quất",
+    "Category": "Soda",
+    "BasePrice": 38000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-053",
+    "Id": "MON-053",
+    "Name": "Soda dâu",
+    "Category": "Soda",
+    "BasePrice": 38000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-054",
+    "Id": "MON-054",
+    "Name": "Soda đào",
+    "Category": "Soda",
+    "BasePrice": 38000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-055",
+    "Id": "MON-055",
+    "Name": "Sữa tươi trân châu đường đen",
+    "Category": "Đồ uống",
+    "BasePrice": 42000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-056",
+    "Id": "MON-056",
+    "Name": "Sữa tươi matcha",
+    "Category": "Đồ uống",
+    "BasePrice": 40000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-057",
+    "Id": "MON-057",
+    "Name": "Sữa chua đá",
+    "Category": "Đồ uống",
+    "BasePrice": 32000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-058",
+    "Id": "MON-058",
+    "Name": "Yaourt trái cây",
+    "Category": "Đồ uống",
+    "BasePrice": 40000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-059",
+    "Id": "MON-059",
+    "Name": "Nước chanh tươi",
+    "Category": "Nước ép",
+    "BasePrice": 28000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-060",
+    "Id": "MON-060",
+    "Name": "Trà gừng mật ong",
+    "Category": "Trà",
+    "BasePrice": 32000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Kích cỡ",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Vừa (M)",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "M"
+          },
+          {
+            "Name": "Lớn (L)",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "L"
+          },
+          {
+            "Name": "Rất lớn (XL)",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "XL"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SIZE"
+      },
+      {
+        "Name": "Đường",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "100% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "100"
+          },
+          {
+            "Name": "70% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "70"
+          },
+          {
+            "Name": "50% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "50"
+          },
+          {
+            "Name": "30% đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "30"
+          },
+          {
+            "Name": "Không đường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "0"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "SUGAR"
+      },
+      {
+        "Name": "Lượng đá",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Bình thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NORMAL"
+          },
+          {
+            "Name": "Ít đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "LESS"
+          },
+          {
+            "Name": "Không đá",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "NONE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "ICE"
+      },
+      {
+        "Name": "Topping",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Trân châu đen",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PEARL"
+          },
+          {
+            "Name": "Thạch trái cây",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "JELLY"
+          },
+          {
+            "Name": "Kem cheese",
+            "Available": true,
+            "ExtraPrice": 10000,
+            "Id": "CREAM"
+          },
+          {
+            "Name": "Pudding trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "PUDDING"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "TOPPING"
+      }
+    ]
+  },
+  {
+    "_id": "MON-061",
+    "Id": "MON-061",
+    "Name": "Bánh croissant bơ",
+    "Category": "Bánh ngọt",
+    "BasePrice": 28000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Khẩu phần",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Phần thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "REGULAR"
+          },
+          {
+            "Name": "Phần lớn",
+            "Available": true,
+            "ExtraPrice": 12000,
+            "Id": "LARGE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "PORTION"
+      },
+      {
+        "Name": "Thêm món",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Thêm phô mai",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "CHEESE"
+          },
+          {
+            "Name": "Thêm trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "EGG"
+          },
+          {
+            "Name": "Thêm sốt",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "SAUCE"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "ADDON"
+      }
+    ]
+  },
+  {
+    "_id": "MON-062",
+    "Id": "MON-062",
+    "Name": "Bánh muffin chocolate",
+    "Category": "Bánh ngọt",
+    "BasePrice": 30000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Khẩu phần",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Phần thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "REGULAR"
+          },
+          {
+            "Name": "Phần lớn",
+            "Available": true,
+            "ExtraPrice": 12000,
+            "Id": "LARGE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "PORTION"
+      },
+      {
+        "Name": "Thêm món",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Thêm phô mai",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "CHEESE"
+          },
+          {
+            "Name": "Thêm trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "EGG"
+          },
+          {
+            "Name": "Thêm sốt",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "SAUCE"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "ADDON"
+      }
+    ]
+  },
+  {
+    "_id": "MON-063",
+    "Id": "MON-063",
+    "Name": "Bánh tiramisu",
+    "Category": "Bánh ngọt",
+    "BasePrice": 42000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Khẩu phần",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Phần thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "REGULAR"
+          },
+          {
+            "Name": "Phần lớn",
+            "Available": true,
+            "ExtraPrice": 12000,
+            "Id": "LARGE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "PORTION"
+      },
+      {
+        "Name": "Thêm món",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Thêm phô mai",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "CHEESE"
+          },
+          {
+            "Name": "Thêm trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "EGG"
+          },
+          {
+            "Name": "Thêm sốt",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "SAUCE"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "ADDON"
+      }
+    ]
+  },
+  {
+    "_id": "MON-064",
+    "Id": "MON-064",
+    "Name": "Bánh cheesecake",
+    "Category": "Bánh ngọt",
+    "BasePrice": 45000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Khẩu phần",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Phần thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "REGULAR"
+          },
+          {
+            "Name": "Phần lớn",
+            "Available": true,
+            "ExtraPrice": 12000,
+            "Id": "LARGE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "PORTION"
+      },
+      {
+        "Name": "Thêm món",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Thêm phô mai",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "CHEESE"
+          },
+          {
+            "Name": "Thêm trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "EGG"
+          },
+          {
+            "Name": "Thêm sốt",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "SAUCE"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "ADDON"
+      }
+    ]
+  },
+  {
+    "_id": "MON-065",
+    "Id": "MON-065",
+    "Name": "Bánh su kem",
+    "Category": "Bánh ngọt",
+    "BasePrice": 25000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Khẩu phần",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Phần thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "REGULAR"
+          },
+          {
+            "Name": "Phần lớn",
+            "Available": true,
+            "ExtraPrice": 12000,
+            "Id": "LARGE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "PORTION"
+      },
+      {
+        "Name": "Thêm món",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Thêm phô mai",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "CHEESE"
+          },
+          {
+            "Name": "Thêm trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "EGG"
+          },
+          {
+            "Name": "Thêm sốt",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "SAUCE"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "ADDON"
+      }
+    ]
+  },
+  {
+    "_id": "MON-066",
+    "Id": "MON-066",
+    "Name": "Bánh mì que",
+    "Category": "Đồ ăn nhẹ",
+    "BasePrice": 22000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Khẩu phần",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Phần thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "REGULAR"
+          },
+          {
+            "Name": "Phần lớn",
+            "Available": true,
+            "ExtraPrice": 12000,
+            "Id": "LARGE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "PORTION"
+      },
+      {
+        "Name": "Thêm món",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Thêm phô mai",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "CHEESE"
+          },
+          {
+            "Name": "Thêm trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "EGG"
+          },
+          {
+            "Name": "Thêm sốt",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "SAUCE"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "ADDON"
+      }
+    ]
+  },
+  {
+    "_id": "MON-067",
+    "Id": "MON-067",
+    "Name": "Sandwich gà",
+    "Category": "Đồ ăn nhẹ",
+    "BasePrice": 38000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Khẩu phần",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Phần thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "REGULAR"
+          },
+          {
+            "Name": "Phần lớn",
+            "Available": true,
+            "ExtraPrice": 12000,
+            "Id": "LARGE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "PORTION"
+      },
+      {
+        "Name": "Thêm món",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Thêm phô mai",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "CHEESE"
+          },
+          {
+            "Name": "Thêm trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "EGG"
+          },
+          {
+            "Name": "Thêm sốt",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "SAUCE"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "ADDON"
+      }
+    ]
+  },
+  {
+    "_id": "MON-068",
+    "Id": "MON-068",
+    "Name": "Sandwich trứng",
+    "Category": "Đồ ăn nhẹ",
+    "BasePrice": 32000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Khẩu phần",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Phần thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "REGULAR"
+          },
+          {
+            "Name": "Phần lớn",
+            "Available": true,
+            "ExtraPrice": 12000,
+            "Id": "LARGE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "PORTION"
+      },
+      {
+        "Name": "Thêm món",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Thêm phô mai",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "CHEESE"
+          },
+          {
+            "Name": "Thêm trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "EGG"
+          },
+          {
+            "Name": "Thêm sốt",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "SAUCE"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "ADDON"
+      }
+    ]
+  },
+  {
+    "_id": "MON-069",
+    "Id": "MON-069",
+    "Name": "Hotdog phô mai",
+    "Category": "Đồ ăn nhẹ",
+    "BasePrice": 35000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Khẩu phần",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Phần thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "REGULAR"
+          },
+          {
+            "Name": "Phần lớn",
+            "Available": true,
+            "ExtraPrice": 12000,
+            "Id": "LARGE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "PORTION"
+      },
+      {
+        "Name": "Thêm món",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Thêm phô mai",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "CHEESE"
+          },
+          {
+            "Name": "Thêm trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "EGG"
+          },
+          {
+            "Name": "Thêm sốt",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "SAUCE"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "ADDON"
+      }
+    ]
+  },
+  {
+    "_id": "MON-070",
+    "Id": "MON-070",
+    "Name": "Khoai tây lắc phô mai",
+    "Category": "Đồ ăn nhẹ",
+    "BasePrice": 30000,
+    "Available": true,
+    "OptionGroups": [
+      {
+        "Name": "Khẩu phần",
+        "Minimum": 1,
+        "Choices": [
+          {
+            "Name": "Phần thường",
+            "Available": true,
+            "ExtraPrice": 0,
+            "Id": "REGULAR"
+          },
+          {
+            "Name": "Phần lớn",
+            "Available": true,
+            "ExtraPrice": 12000,
+            "Id": "LARGE"
+          }
+        ],
+        "Maximum": 1,
+        "Id": "PORTION"
+      },
+      {
+        "Name": "Thêm món",
+        "Minimum": 0,
+        "Choices": [
+          {
+            "Name": "Thêm phô mai",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "CHEESE"
+          },
+          {
+            "Name": "Thêm trứng",
+            "Available": true,
+            "ExtraPrice": 7000,
+            "Id": "EGG"
+          },
+          {
+            "Name": "Thêm sốt",
+            "Available": true,
+            "ExtraPrice": 5000,
+            "Id": "SAUCE"
+          }
+        ],
+        "Maximum": 2,
+        "Id": "ADDON"
+      }
+    ]
+  }
+]

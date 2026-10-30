@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Manager.Core/Manager.Core.csproj" />
+    <ProjectReference Include="../Cashier.Core/Cashier.Core.csproj" />
+    <ProjectReference Include="../Cashier.Infrastructure/Cashier.Infrastructure.csproj" />
+    <ProjectReference Include="../Cashier.MongoIntegration/Cashier.MongoIntegration.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="3.12.0" />
+  </ItemGroup>
+</Project>
+

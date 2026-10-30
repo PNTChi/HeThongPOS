@@ -1,0 +1,19 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Cashier.Core -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.Core\bin\Release\net8.0\Cashier.Core.dll
+  Cashier.Infrastructure -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.Infrastructure\bin\Release\net8.0\Cashier.Infrastructure.dll
+  Cashier.WinForms -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.WinForms\bin\Release\net8.0-windows\Nhom11.Cashier.dll
+  Cashier.Tests -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\tests\Cashier.Tests\bin\Release\net8.0\Cashier.Tests.dll
+  Cashier.MongoIntegration -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.MongoIntegration\bin\Release\net8.0\Cashier.MongoIntegration.dll
+  Manager.Core -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Manager.Core\bin\Release\net8.0\Manager.Core.dll
+  Manager.Infrastructure -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Manager.Infrastructure\bin\Release\net8.0\Manager.Infrastructure.dll
+  Manager.WinForms -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Manager.WinForms\bin\Release\net8.0-windows\Nhom11.Manager.dll
+  Manager.Tests -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\tests\Manager.Tests\bin\Release\net8.0\Manager.Tests.dll
+  Cashier.UiSmoke -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\tests\Cashier.UiSmoke\bin\Release\net8.0-windows\Cashier.UiSmoke.dll
+  Cashier.ProductImageChecks -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\tests\Cashier.ProductImageChecks\bin\Release\net8.0-windows\Cashier.ProductImageChecks.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.62

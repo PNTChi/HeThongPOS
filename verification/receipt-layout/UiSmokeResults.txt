@@ -1,0 +1,74 @@
+﻿PASS | Asynchronous operations resume on the WinForms STA thread
+WinForms runtime smoke; hidden controls only; no printers, dialogs or user AppData.
+PASS | Catalog renders all 10 product cards
+PASS | Unavailable product cannot be selected
+PASS | Clicking a normal product twice updates one cart row
+PASS | Editing the cart preserves existing card controls and images
+PASS | An empty search result displays a clear message
+PASS | Filtering products preserves the unpaid cart
+PASS | Vietnamese search works without accents
+PASS | Category filtering displays only matching products
+PASS | Applying a valid promotion updates the actual cart total
+PASS | An invalid promotion keeps the valid discount and shows an inline error
+PNG | sales-promotion-inline.png | client=1360x800 | DPI=96
+PASS | Option controls recalculate size, topping and quantity price
+PNG | options-selected.png | client=610x680 | DPI=96
+PASS | Saving valid option controls returns an accepted selection
+PASS | The cart displays selected options on the matching row
+PNG | sales-1360x800.png | client=1360x800 | DPI=96
+PASS | Checkout stays within the normal window [{X=743,Y=688,Width=586,Height=50}]
+PNG | sales-1100x680.png | client=1100x680 | DPI=96
+PASS | Checkout stays within the smaller window [{X=605,Y=568,Width=464,Height=50}]
+PASS | Promotion actions stay within the smaller window [{X=893,Y=388,Width=86,Height=40}]
+PASS | The smaller window retains a usable cart list; height=142
+PASS | Search, option editing and promotions create no transactions
+PASS | Checkout rejects an old price after Manager changes the catalog
+PASS | Cart refresh replaces stale product metadata after a changed catalog snapshot
+PASS | Refreshed option metadata preserves the selected category
+PASS | Availability changes from Manager update the product cards
+PASS | A closed/revoked cashier session permits reload while blocking checkout
+PASS | Reload reads the restored session and enables the cashier controls
+PASS | Product cards become selectable after session recovery
+PASS | An unavailable old topping is visibly disabled and excluded from the edited selection
+PASS | The edit dialog explains the unavailable option and recalculates the payable line price
+PASS | Cashier can save the corrected line without deleting and recreating the whole item
+PASS | An unavailable required size is not silently replaced with a different size
+PASS | The cashier must select an available required size before saving
+PASS | Choosing an available size permits saving the corrected selection
+PASS | The test closes Cashier while a real asynchronous load is pending
+PASS | Closing during loading creates no controls or error dialog after disposal
+PASS | Two Cashier windows in one host cannot share a pending-checkout journal
+PASS | A second process cannot open Cashier against the same journal
+PASS | Closing Cashier releases its journal lease for the next process
+PASS | The FormClosed event releases the journal before the host disposes the dialog
+PASS | An existing host can reopen Cashier after the previous dialog closes
+PASS | Insufficient cash disables confirmation and explains the shortage
+PNG | payment-cash-short.png | client=650x550 | DPI=96
+PASS | Enough cash enables confirmation and displays the correct change
+PASS | Bank transfer requires an explicit receipt confirmation
+PASS | Checking the received-transfer box enables payment
+PNG | payment-transfer-confirmed.png | client=650x550 | DPI=96
+PASS | The payment form records exactly one completed bank-transfer receipt
+PASS | Receipt printing wraps narrow paper and completes across multiple pages
+PASS | Receipt viewer displays the saved receipt number
+PNG | receipt.png | client=760x750 | DPI=96
+PASS | History loads and selects a persisted receipt for a similar order
+PNG | history.png | client=1120x700 | DPI=96
+PASS | History disables creation when filtering finds no receipt
+PASS | Create-similar selects the existing receipt without saving another transaction
+PASS | A restricted history session permits viewing while disabling similar orders
+PASS | Viewing and searching history leaves the transaction count unchanged
+PASS | A new reconciliation requires the actual counted amount instead of prefilled expected cash
+PASS | Expected cash includes opening cash plus cash payments and excludes bank transfers
+PASS | A real zero count displays the full shortage
+PASS | Refreshing preserves the counted amount and updates its shortage
+PASS | Refreshing also preserves an explicitly counted zero
+PASS | Matching counted cash clears the shortage
+PNG | shift-1100x700.png | client=1100x700 | DPI=96
+PASS | Wrapped reconciliation buttons fit inside their auto-sized action row
+PASS | All reconciliation buttons fit horizontally at the smaller size
+PASS | View-transactions requests the current shift
+PASS | Concise labels and the reconciliation formula explain the amounts
+PNG | shift-1450x900.png | client=1450x900 | DPI=96
+PASS | Reconciliation previews leave the shift and transactions unchanged
+RESULT: 62 passed, 0 failed.

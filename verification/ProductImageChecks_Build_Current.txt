@@ -1,0 +1,11 @@
+  Cashier.Core -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.Core\bin\Release\net8.0\Cashier.Core.dll
+  Manager.Core -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Manager.Core\bin\Release\net8.0\Manager.Core.dll
+  Cashier.Infrastructure -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.Infrastructure\bin\Release\net8.0\Cashier.Infrastructure.dll
+  Manager.Infrastructure -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Manager.Infrastructure\bin\Release\net8.0\Manager.Infrastructure.dll
+  Cashier.ProductImageChecks -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\tests\Cashier.ProductImageChecks\bin\Release\net8.0-windows\Cashier.ProductImageChecks.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.40

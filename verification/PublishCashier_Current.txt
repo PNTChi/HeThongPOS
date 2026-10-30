@@ -1,0 +1,8 @@
+  Determining projects to restore...
+  Restored C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.Core\Cashier.Core.csproj (in 178 ms).
+  Restored C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.Infrastructure\Cashier.Infrastructure.csproj (in 187 ms).
+  Restored C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.WinForms\Cashier.WinForms.csproj (in 188 ms).
+  Cashier.Core -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.Core\bin\Release\net8.0\Cashier.Core.dll
+  Cashier.Infrastructure -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.Infrastructure\bin\Release\net8.0\Cashier.Infrastructure.dll
+  Cashier.WinForms -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.WinForms\bin\Release\net8.0-windows\win-x64\Nhom11.Cashier.dll
+  Cashier.WinForms -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\Windows_Demo\

@@ -1,0 +1,12 @@
+  Determining projects to restore...
+  Restored C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Manager.Core\Manager.Core.csproj (in 249 ms).
+  Restored C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Manager.WinForms\Manager.WinForms.csproj (in 249 ms).
+  Restored C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Manager.Infrastructure\Manager.Infrastructure.csproj (in 249 ms).
+  3 of 6 projects are up-to-date for restore.
+  Cashier.Core -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.Core\bin\Release\net8.0\Cashier.Core.dll
+  Cashier.Infrastructure -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.Infrastructure\bin\Release\net8.0\Cashier.Infrastructure.dll
+  Cashier.WinForms -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Cashier.WinForms\bin\Release\net8.0-windows\win-x64\Nhom11.Cashier.dll
+  Manager.Core -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Manager.Core\bin\Release\net8.0\Manager.Core.dll
+  Manager.Infrastructure -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Manager.Infrastructure\bin\Release\net8.0\Manager.Infrastructure.dll
+  Manager.WinForms -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\src\Manager.WinForms\bin\Release\net8.0-windows\win-x64\Nhom11.Manager.dll
+  Manager.WinForms -> C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\Windows_Demo_Manager\

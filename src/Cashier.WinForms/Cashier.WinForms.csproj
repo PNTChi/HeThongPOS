@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <AssemblyName>Nhom11.Cashier</AssemblyName>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Cashier.Core/Cashier.Core.csproj" />
+    <ProjectReference Include="../Cashier.Infrastructure/Cashier.Infrastructure.csproj" />
+    <ProjectReference Include="../Cashier.MongoIntegration/Cashier.MongoIntegration.csproj" />
+    <Content Include="Data/DemoCatalog.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Data/Images/**/*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../atlas-credentials.env" Link="atlas-credentials.env" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

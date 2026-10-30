@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <AssemblyName>Nhom11.Manager</AssemblyName>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Cashier.Core/Cashier.Core.csproj" />
+    <ProjectReference Include="../Cashier.Infrastructure/Cashier.Infrastructure.csproj" />
+    <ProjectReference Include="../Cashier.WinForms/Cashier.WinForms.csproj" />
+    <ProjectReference Include="../Manager.Core/Manager.Core.csproj" />
+    <ProjectReference Include="../Manager.Infrastructure/Manager.Infrastructure.csproj" />
+    <Content Include="../../atlas-credentials.env" Link="atlas-credentials.env" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="Data/AdditionalProducts.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../Cashier.WinForms/Data/Images/**/*" Link="Data/Images/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../Cashier.WinForms/Data/DemoCatalog.json" Link="Data/DemoCatalog.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
+

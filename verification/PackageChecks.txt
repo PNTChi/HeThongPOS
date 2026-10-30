@@ -1,0 +1,9 @@
+Cashier-only submission review 2026-10-16
+Full solution Release build: 0 warnings, 0 errors
+Cashier business/storage: 58/58; Images: 20/20; WinForms runtime checks: 61/61
+Manager source and tests unchanged from the previous delivered ZIP.
+Published Windows_Demo; refreshed Cashier DLLs in Windows_Demo_Manager for compatibility.
+Original source folders and Phase4 documents preserved.
+No real printer or group MongoDB integration was exercised.
+Close older running Cashier versions before using this package.
+SHA256SUMS.txt records current packaged files except itself.

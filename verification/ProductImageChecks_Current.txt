@@ -1,0 +1,21 @@
+PASS Valid image becomes a detached thumbnail
+PASS Manager can replace the original while Cashier displays the image
+PASS Data/Images portable catalog path is accepted
+PASS Fallback safely: <null>
+PASS Fallback safely: 
+PASS Fallback safely: Images/missing.png
+PASS Fallback safely: Images/corrupt.png
+PASS Fallback safely: Images/file.svg
+PASS Fallback safely: ../Images/valid.png
+PASS Fallback safely: Images/../Images/valid.png
+PASS Fallback safely: C:\Users\TUAN KHOI\Downloads\New folder\Cashier_Phase4_DaChinhSua\tests\Cashier.ProductImageChecks\bin\Release\net8.0-windows\image-fixtures\Images\valid.png
+PASS Fallback safely: https://example.com/product.png
+PASS Fallback safely: Images/valid.png:stream
+PASS Fallback safely: ImagesOther/valid.png
+PASS Existing MenuItem constructor and catalogs remain compatible
+PASS No-image card stays a keyboard accessible button with a placeholder
+PASS Selecting the product calls the existing add-item action once
+PASS Corrupt image does not block product selection
+PASS Manager save/edit and promotion save preserve optional image metadata for Cashier
+PASS Cashier displays image metadata after Manager JSON roundtrip
+20 image/card checks passed.

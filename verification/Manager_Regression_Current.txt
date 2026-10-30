@@ -1,0 +1,13 @@
+Manager automated business & store tests — 2026-10-15T07:03:25.9025197+00:00
+PASS | TC_M01 Đăng nhập: tài khoản hợp lệ, sai mật khẩu, tài khoản bị khóa
+PASS | TC_M02 Mở ca: bắt đầu ca thành công, chặn mở 2 ca cùng lúc, kiểm tra quyền
+PASS | TC_M03 Đóng ca & đối soát: tính đúng tiền thực tế, tiền lý thuyết và chênh lệch
+PASS | TC_M04 Quản lý món: thêm món, sửa giá, kiểm tra giá âm và trùng mã
+PASS | TC_M05 Quản lý Modifier: nhóm tùy chọn, giới hạn min/max, phụ thu không âm
+PASS | TC_M06 Quản lý Khuyến mãi: thêm mã, kiểm tra phần trăm <= 100, ngày hiệu lực
+PASS | TC_M07 Quản lý Nhân viên: thêm nhân viên, kiểm tra trùng mã NV và trùng username
+PASS | TC_M08 Tra cứu lịch sử: lọc theo thời gian, theo ca, theo phương thức
+PASS | TC_M09 Báo cáo doanh thu & món bán chạy & phân bổ phương thức
+PASS | TC_M10 Cầu nối Session: cung cấp phiên hợp lệ và đồng bộ với Cashier
+PASS | TC_M11 Lưu trữ JSON: kiểm tra ghi và đọc file thật
+RESULT: 11/11 passed, 0 failed.

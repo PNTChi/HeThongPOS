@@ -1,0 +1,5 @@
+Review date: 2026-10-16
+Review scope: Cashier only
+Manager source/test files unchanged against previous delivery: 22
+Changed Cashier files: src/Cashier.Core/CashierController.cs, src/Cashier.WinForms/OptionsForm.cs, src/Cashier.WinForms/Program.cs, src/Cashier.WinForms/SalesForm.cs
+New Cashier file: src/Cashier.WinForms/CashierWindowLease.cs

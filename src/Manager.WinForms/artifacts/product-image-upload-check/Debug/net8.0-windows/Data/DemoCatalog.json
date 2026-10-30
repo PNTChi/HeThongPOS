@@ -1,0 +1,262 @@
+{
+  "Menu": [
+    {
+      "Id": "MON-01",
+      "Name": "Cà phê đen",
+      "Category": "Cà phê",
+      "BasePrice": 25000,
+      "Available": true,
+      "OptionGroups": [],
+      "ImagePath": "Images/mon-01.png"
+    },
+    {
+      "Id": "MON-02",
+      "Name": "Cà phê sữa",
+      "Category": "Cà phê",
+      "BasePrice": 30000,
+      "Available": true,
+      "OptionGroups": [
+        {
+          "Id": "SIZE",
+          "Name": "Kích cỡ",
+          "Minimum": 1,
+          "Maximum": 1,
+          "Choices": [
+            {
+              "Id": "M",
+              "Name": "Vừa (M)",
+              "ExtraPrice": 0,
+              "Available": true
+            },
+            {
+              "Id": "L",
+              "Name": "Lớn (L)",
+              "ExtraPrice": 5000,
+              "Available": true
+            }
+          ]
+        }
+      ],
+      "ImagePath": "Images/mon-02.png"
+    },
+    {
+      "Id": "MON-03",
+      "Name": "Caramel Macchiato",
+      "Category": "Cà phê",
+      "BasePrice": 40000,
+      "Available": true,
+      "OptionGroups": [
+        {
+          "Id": "SIZE",
+          "Name": "Kích cỡ",
+          "Minimum": 1,
+          "Maximum": 1,
+          "Choices": [
+            {
+              "Id": "M",
+              "Name": "Vừa (M)",
+              "ExtraPrice": 0,
+              "Available": true
+            },
+            {
+              "Id": "L",
+              "Name": "Lớn (L)",
+              "ExtraPrice": 5000,
+              "Available": true
+            }
+          ]
+        },
+        {
+          "Id": "TOPPING",
+          "Name": "Topping",
+          "Minimum": 0,
+          "Maximum": 2,
+          "Choices": [
+            {
+              "Id": "TRAN-CHAU",
+              "Name": "Trân châu",
+              "ExtraPrice": 5000,
+              "Available": true
+            },
+            {
+              "Id": "KEM",
+              "Name": "Kem sữa",
+              "ExtraPrice": 7000,
+              "Available": true
+            },
+            {
+              "Id": "THACH",
+              "Name": "Thạch cà phê",
+              "ExtraPrice": 5000,
+              "Available": true
+            }
+          ]
+        }
+      ],
+      "ImagePath": "Images/mon-03.png"
+    },
+    {
+      "Id": "MON-04",
+      "Name": "Trà sữa",
+      "Category": "Trà",
+      "BasePrice": 35000,
+      "Available": true,
+      "OptionGroups": [
+        {
+          "Id": "SIZE",
+          "Name": "Kích cỡ",
+          "Minimum": 1,
+          "Maximum": 1,
+          "Choices": [
+            {
+              "Id": "M",
+              "Name": "Vừa (M)",
+              "ExtraPrice": 0,
+              "Available": true
+            },
+            {
+              "Id": "L",
+              "Name": "Lớn (L)",
+              "ExtraPrice": 5000,
+              "Available": true
+            }
+          ]
+        },
+        {
+          "Id": "TOPPING",
+          "Name": "Topping",
+          "Minimum": 0,
+          "Maximum": 2,
+          "Choices": [
+            {
+              "Id": "TRAN-CHAU",
+              "Name": "Trân châu",
+              "ExtraPrice": 5000,
+              "Available": true
+            },
+            {
+              "Id": "KEM",
+              "Name": "Kem sữa",
+              "ExtraPrice": 7000,
+              "Available": true
+            },
+            {
+              "Id": "THACH",
+              "Name": "Thạch",
+              "ExtraPrice": 5000,
+              "Available": true
+            }
+          ]
+        }
+      ],
+      "ImagePath": "Images/mon-04.png"
+    },
+    {
+      "Id": "MON-05",
+      "Name": "Trà đào",
+      "Category": "Trà",
+      "BasePrice": 30000,
+      "Available": true,
+      "OptionGroups": [],
+      "ImagePath": "Images/mon-05.png"
+    },
+    {
+      "Id": "MON-06",
+      "Name": "Trà chanh",
+      "Category": "Trà",
+      "BasePrice": 25000,
+      "Available": true,
+      "OptionGroups": [],
+      "ImagePath": "Images/mon-06.png"
+    },
+    {
+      "Id": "MON-07",
+      "Name": "Burger bò",
+      "Category": "Thức ăn nhanh",
+      "BasePrice": 45000,
+      "Available": true,
+      "OptionGroups": [
+        {
+          "Id": "THEM",
+          "Name": "Thêm nhân",
+          "Minimum": 0,
+          "Maximum": 2,
+          "Choices": [
+            {
+              "Id": "PHO-MAI",
+              "Name": "Phô mai",
+              "ExtraPrice": 5000,
+              "Available": true
+            },
+            {
+              "Id": "TRUNG",
+              "Name": "Trứng",
+              "ExtraPrice": 7000,
+              "Available": true
+            }
+          ]
+        }
+      ],
+      "ImagePath": "Images/mon-07.png"
+    },
+    {
+      "Id": "MON-08",
+      "Name": "Khoai tây chiên",
+      "Category": "Thức ăn nhanh",
+      "BasePrice": 25000,
+      "Available": true,
+      "OptionGroups": [],
+      "ImagePath": "Images/mon-08.png"
+    },
+    {
+      "Id": "MON-09",
+      "Name": "Gà rán",
+      "Category": "Thức ăn nhanh",
+      "BasePrice": 35000,
+      "Available": false,
+      "OptionGroups": [],
+      "ImagePath": "Images/mon-09.png"
+    },
+    {
+      "Id": "MON-10",
+      "Name": "Nước suối",
+      "Category": "Nước đóng chai",
+      "BasePrice": 10000,
+      "Available": true,
+      "OptionGroups": [],
+      "ImagePath": "Images/mon-10.png"
+    }
+  ],
+  "Promotions": [
+    {
+      "Code": "SALE10",
+      "Description": "Giảm 10% cho đơn từ 40.000 đ",
+      "Kind": "Percentage",
+      "Value": 10,
+      "MinimumSubtotal": 40000,
+      "StartsAt": "2026-01-01T00:00:00+07:00",
+      "EndsAt": "2030-12-31T23:59:59+07:00",
+      "Active": true
+    },
+    {
+      "Code": "GIAM5K",
+      "Description": "Giảm 5.000 đ cho đơn từ 50.000 đ",
+      "Kind": "FixedAmount",
+      "Value": 5000,
+      "MinimumSubtotal": 50000,
+      "StartsAt": "2026-01-01T00:00:00+07:00",
+      "EndsAt": "2030-12-31T23:59:59+07:00",
+      "Active": true
+    },
+    {
+      "Code": "HETHAN",
+      "Description": "Mã mẫu đã hết hạn",
+      "Kind": "Percentage",
+      "Value": 20,
+      "MinimumSubtotal": 0,
+      "StartsAt": "2025-01-01T00:00:00+07:00",
+      "EndsAt": "2025-12-31T23:59:59+07:00",
+      "Active": true
+    }
+  ]
+}

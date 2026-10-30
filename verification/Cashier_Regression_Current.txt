@@ -1,0 +1,61 @@
+Cashier automated business/storage tests — 2026-10-15T17:48:12.4026479+00:00
+PASS | TC01 Món thường, tổng tiền và tìm kiếm tiếng Việt
+PASS | TC02 Tùy chọn bắt buộc và phụ thu
+PASS | TC03 Chặn tùy chọn lạ, trùng và vượt số lượng
+PASS | TC04 Sửa số lượng, sửa tùy chọn, xóa dòng
+PASS | TC05 Phân biệt các tổ hợp tùy chọn
+PASS | TC06 Mã hợp lệ; mã sai/hết hạn giữ ưu đãi cũ
+PASS | TC07 Sửa giỏ bỏ mã và không giảm vượt tạm tính
+PASS | TC08 Tiền mặt 99.000 / nhận 100.000 / thừa 1.000
+PASS | TC09 Chuyển khoản cần xác nhận đã nhận tiền
+PASS | TC10 Xác nhận lặp/song song chỉ ghi một giao dịch
+PASS | TC11 Lỗi sau commit khôi phục hóa đơn đã lưu
+PASS | TC12 Không rõ kết quả khóa giỏ; kiểm tra trước thử lại
+PASS | TC13 Khởi động lại tiếp tục cùng giao dịch đang chờ
+PASS | TC14 Phiên/ca không hợp lệ chặn thanh toán
+PASS | TC15 Món tạm ngừng, giá thay đổi chặn đơn cũ
+PASS | TC16 Mã hết hiệu lực trước checkout cần xác nhận tổng mới
+PASS | TC17 Snapshot hóa đơn không đổi sau thay đổi danh mục
+PASS | TC18 Lưu JSON thật, đọc lại và ngăn ghi đè/trùng
+PASS | TC19 Checkout qua kho JSON và journal thật
+PASS | TC20 Số lượng sai, bỏ giỏ cần xác nhận
+PASS | TC21 Chặn tiền lẻ VND và phương thức không hợp lệ
+PASS | TC22 Mở lại chỉ khi xác định chưa lưu
+PASS | TC23 Dữ liệu DemoCatalog được đọc bằng adapter thật
+PASS | TC24 Journal lỗi ngăn ghi đơn trước khi có bản chờ
+PASS | TC25 Lỗi đường dẫn đọc không được coi là chưa có tệp
+PASS | TC26 Chưa tìm thấy đơn từ xa không cho bỏ mã khi ghi có thể đến muộn
+PASS | TC27 Hóa đơn có tiền lẻ VND bị từ chối
+PASS | TC28 Hóa đơn giảm giá không khớp snapshot chính sách bị từ chối
+PASS | TC29 Hóa đơn trùng mã dòng hoặc thiếu tùy chọn bị từ chối
+PASS | TC30 Không nạp lặp giao dịch trong cùng controller
+PASS | TC31 Cấu hình giảm cố định tiền lẻ hoặc lựa chọn trùng bị từ chối
+PASS | TC32 Hóa đơn JSON hỏng không được coi là không có giao dịch
+PASS | TC33 Tiền mặt lớn và phiên không được bán
+PASS | TC34 Thêm lặp món thường gộp vào cùng dòng
+PASS | TC35 Cùng tùy chọn, khác thứ tự chọn vẫn gộp
+PASS | TC36 Khác topping giữ hai dòng độc lập
+PASS | TC37 Sửa thành cùng tùy chọn thì gộp, giữ dòng đang sửa
+PASS | TC38 Gộp vượt 999 giữ nguyên giỏ và ưu đãi
+PASS | TC39 Sửa để gộp vượt 999 không mất dòng nào
+PASS | TC40 Khác snapshot giá không được gộp
+PASS | TC41 Giỏ rỗng không tạo hóa đơn hoặc bản chờ
+PASS | TC42 Gộp món bỏ mã để áp dụng lại theo giỏ mới
+PASS | TC43 Lịch sử JSON sắp mới nhất trước và giới hạn số đơn
+PASS | TC44 Tệp lịch sử hỏng/sai mã được báo, không xóa hay sửa hóa đơn
+PASS | TC45 Chưa có lịch sử, giới hạn sai và hủy đọc không tạo dữ liệu
+PASS | TC46 Tạo đơn tương tự dùng giá mới, không sao chép ưu đãi/tiền cũ
+PASS | TC47 Giỏ có món cần xác nhận trước khi tạo đơn tương tự
+PASS | TC48 Một món ngừng bán giữ nguyên toàn bộ giỏ và ưu đãi
+PASS | TC49 Tùy chọn đã gỡ không được tạo lại, giữ giỏ hiện tại
+PASS | TC50 Thanh toán đơn tương tự có mã mới, phiên và tiền nhận mới
+PASS | TC51 Giao dịch đang chờ chặn tạo đơn tương tự
+PASS | TC52 Giá cũ khác nhau nay cùng cấu hình được gộp trong giỏ mới
+PASS | TC53 Gộp đơn tương tự vượt 999 không làm mất giỏ cũ
+PASS | TC54 Phiên/ca mới không hợp lệ chặn tạo giỏ tương tự
+PASS | TC55 JSON thật: xem/tạo giỏ không ghi đơn, checkout mới không sửa đơn gốc
+PASS | TC56 Phiên đóng khi khởi tạo được tải lại sau khi mở ca
+PASS | TC57 Checkout gặp ca đóng vẫn giữ giỏ/mã và tải lại để bán tiếp
+PASS | TC58 Tải lại không thay giao dịch chờ hoặc hóa đơn đã thanh toán
+RESULT: 58/58 passed, 0 failed.
+These tests do not run the Windows UI, a physical printer, or the group's MongoDB.
